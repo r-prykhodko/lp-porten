@@ -117,7 +117,7 @@ text-transform: uppercase;
 .descripton__content {
     padding-top: 160px;
    
-    background-image: url("/images/bg/bg-description.png")
+    background-image: url("../images/bg/bg-description.png")
 }
 
 .description__logo {
@@ -185,7 +185,7 @@ text-transform: uppercase;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url("/images/bg/bg-collection-1.png");
+    background-image: url("../images/bg/bg-collection-1.png");
     width: 880px;
     height: 730px;
 
@@ -417,7 +417,7 @@ text-transform: uppercase;
     gap: 30px;
     padding-top: 80px;
     padding-bottom: 24px;
-    background-image: url("/images/bg/bg-footer.png");
+    background-image: url("../images/bg/bg-footer.png");
     padding-left: 40px;
     padding-right: 40px;
 }
