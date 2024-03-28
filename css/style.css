@@ -112,7 +112,7 @@ text-transform: uppercase;
 
 /*----------------------------*/
 
-/*---------  HEADER  ---------*/
+/*---------  DESCRIPTION  ---------*/
 
 .descripton__content {
     padding-top: 160px;
@@ -172,6 +172,229 @@ text-transform: uppercase;
 
 /*----------------------------*/
 
+
+
+/*---------  COLLECTION  ---------*/
+
+.collection__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collection__new {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/images/bg/bg-collection-1.png");
+    width: 880px;
+    height: 730px;
+
+}
+
+.collection__2018 {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     width: 964px;
+     height: 730px;
+
+}
+
+.collection__season-wathces {
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+    
+}
+
+.collection__season-watch {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.collection__season {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 1013px;
+    height: 730px;
+    
+}
+
+.collection__season-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 127px;
+    padding-top: 200px;
+
+}
+
+.collection__season-watch-name {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.collection__season-watch-price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.collection__new-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+    height: 150px;
+    display: block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 12px 12px;
+
+}
+
+.collection__2018-text {
+    width: 628px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+
+.collection__season-title::after {
+    content: '';
+    display: block;
+    height: 1px; 
+    background: #fff; 
+    width: 120px; 
+    margin-top: 20px;
+    margin: 70px auto 10px;
+   
+   
+}
+
+
+.collection__season-watch-img {
+    width: 215px;
+    height: 264px;
+}
+
+.collection__img {
+    width: 880px;
+    height: 600px;
+}
+
+.goods__content {
+    padding-bottom: 147px;
+}
+/*----------------------------*/
+
+
+
+
+/*---  INFORMATION ---*/
+
+
+
+.information__items {
+    display: flex;
+}
+
+.information__item-text {
+    width: 628px;
+    padding-bottom: 39px;
+}
+
+.information__item {
+    display: flex;
+    gap: 145px;
+}
+
+.information__item-text-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 10%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+
+}
+
+.information__item-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.information__item-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+    height: 150px;
+    display: block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 12px 12px;
+    
+}
+
+
+.information__item-tag-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__item-teg {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 10%;
+    text-align: right;
+    text-transform: uppercase;
+}
+/*----------------------------*/
+
+
+
+
+
+
+/*---  PARTNERS ---*/
+.partners__items {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 106px;
+
+}
+
+/*----------------------------*/
 
 /*---  FOOTER  ---*/
 
@@ -342,6 +565,45 @@ text-transform: uppercase;
 
 
 /*---------  MEDIA  ---------*/
+
+
+@media (max-width: 1919px) {
+    .collection__content {
+        flex-direction: column;
+        align-items:center;
+        gap: 10px;
+    }
+
+    .collection__season-title {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 1789px) {
+    .information__item {
+        flex-direction: column;
+    }
+
+    .information__items {
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+
+    .partners__items {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .partners__items-img {
+        transform: scale(0.35);
+        
+        
+
+    }
+}
+
+
+
 @media (max-width: 1500px)  and (min-width: 1274px){
     .container {
         padding-left: 20px;
@@ -372,7 +634,13 @@ text-transform: uppercase;
         padding-left: 202px;
         padding-right: 202px;
     }
+
+
+    
+    
 }
+
+
 
 /*----------------------------*/
 
@@ -380,6 +648,8 @@ text-transform: uppercase;
     .footer__submit {
     width: 190px;
     }
+
+    
 }
 
 /*----------------------------*/
@@ -414,8 +684,44 @@ text-transform: uppercase;
         padding-left: 101px;
         padding-right: 101px;
     }
+   
+    
+    
+    
 }
 
+@media (max-width: 1023px) {
+    .collection {
+        display: none;
+    }
+
+    .information__item-img {
+        display: none;
+    }
+
+    .collection__season-title {
+        font-size: 16px;
+    }
+
+    .information__item-text {
+        width: 324px;
+        padding-bottom: 39px;
+        font-size: 12px;
+}
+
+    .information__item-text-title {
+        font-size: 12px;
+    }
+
+    .information__item-teg {
+        font-size: 13px;
+    }
+
+    .information__item-button {
+        font-size: 12px;
+    }
+
+}
     /*----------------------------*/
 
     @media (min-width: 768px){
@@ -445,6 +751,10 @@ text-transform: uppercase;
         .menu {
             padding-right: 50px;
         }
+
+       
+
+        
     }
 
     /*----------------------------*/
@@ -487,7 +797,7 @@ text-transform: uppercase;
 
         .footer__bottom {
             padding-left: 15px;
-            padding-right: 0;
+            padding-right: 15px;
         }
 
         .header__top-info {
@@ -504,6 +814,24 @@ text-transform: uppercase;
             padding-right: 10px;
         }
 
+        .description__logo {
+            width: 200px;
+            height: 200px;
+            padding-top: 60px;
+        }
+
+        .description__logo-porten {
+            font-size: 30px;
+        }
+
+        .description__logo-city {
+            font-size: 16px;
+        }
+
+        .description__text {
+            font-size: 13px;
+            width: 360px;
+        }
     /*----------------------------*/
 
 
@@ -551,6 +879,33 @@ text-transform: uppercase;
 
 
      }
+    }
     
 
     /*----------------------------*/
+
+    .swiper {
+        width: 400px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+  
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 100px;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 400px;
+      }
+
+      .goods__swiper-img {
+        width: 60px;
+        height: 500px;
+        transform: scale(0.7);
+      }
+
+     
