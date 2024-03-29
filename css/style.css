@@ -92,9 +92,9 @@ body {
 }
 
 .header__logo { 
+font-family: "Stick No Bills", sans-serif;
 padding-left: 405px;
 color: #FFFFFF;
-font-family: Open Sans;
 font-size: 36px;
 font-weight: 700;
 line-height: 49px;
@@ -131,14 +131,15 @@ text-transform: uppercase;
     padding-top: 115px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 87px;
 
 }
 
 .description__logo-porten {
+    font-family: "Stick No Bills", sans-serif;
     text-decoration: underline;
     color: #FFFFFF;
-    font-family: Open Sans;
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 49px;
     text-transform: uppercase;
@@ -906,6 +907,10 @@ text-transform: uppercase;
         width: 60px;
         height: 500px;
         transform: scale(0.7);
+      }
+
+      .swiper-pagination-bullet {
+        background: #fff;
       }
 
      
