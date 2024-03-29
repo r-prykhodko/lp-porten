@@ -224,6 +224,7 @@ text-transform: uppercase;
 }
 
 .collection__season-title {
+    font-family: "EB Garamond", serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
@@ -231,11 +232,12 @@ text-transform: uppercase;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 127px;
-    padding-top: 200px;
+    padding-top: 80px;
 
 }
 
 .collection__season-watch-name {
+    font-family: font-family: "EB Garamond", serif;;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
@@ -424,6 +426,7 @@ text-transform: uppercase;
 }
 
 .footer__title {
+    font-family: "EB Garamond", serif;
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 400px;
